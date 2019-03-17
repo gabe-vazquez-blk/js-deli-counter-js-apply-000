@@ -19,7 +19,7 @@ function currentLine(katzDeliline){
   else {
     var str = "The line is currently: "
     var i = 0
-    while (i <  (katzDeliline.length - 1)){
+    while (i <  (katzDeliline.length)){
       
       str = str + `${i+1}. ${katzDeliline[i]}, `
       
